@@ -7,8 +7,7 @@ $("document").ready(function () {
 
     
     for (let i = 0; i <= countTo; i += countBy) {
-      console.log(`Index: ${i}`);
-      $(".output").text()
+      $("ul#output").append("<li>" + i + "</li>")
     }
 
   });
